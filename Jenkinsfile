@@ -7,7 +7,7 @@ pipeline {
       steps {
         echo "Hello ${MY_NAME}!"
         echo "${TEST_USER_USR}"
-        echo "${TEST_USR_PSW}"
+        echo "${TEST_USER_PSW}"
         sh 'java -version'
       }
     }
